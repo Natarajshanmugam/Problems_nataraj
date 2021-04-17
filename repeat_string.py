@@ -11,7 +11,6 @@
 
 import math
 count=1
-final=0
 count_of_a = string.count('a')
 print("First a occurences",count_of_a)
 if(len(string)>1):
@@ -28,9 +27,9 @@ if(len(string)>1):
             
             
 else:
-    if(string.count('a')>0):
+    if(count_of_a>0):
         print(k)
     else:
-        print(string.count('a'))
+        print(count_of_a)
         
     
